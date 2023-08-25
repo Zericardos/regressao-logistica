@@ -1,3 +1,26 @@
+
+# Setup environment
+On project's root directory
+1. create venv for python 3.11
+```
+python -m venv .venv
+```
+2. activate venv
+```
+.\.venv\Scripts\Activate.ps1
+```
+3. upgrade pip
+```
+python -m pip install --upgrade pip
+```
+4. install packages
+```
+pip install -r requirements.txt
+```
+5. **Optional** Update *requirements.txt*
+```
+pip freeze > requirements.txt
+```
 # regressao-logistica
 ## Data Dictionary
 | **Variable** | **Definition**                             | **Key**                                        |
