@@ -1,7 +1,6 @@
 # Models
 ## Logistic Regression
-- plot graphs sensitivity, specificity, cutoff
-- roc curve
+- use k-fold cross-validation
 - change solvers
 - change variables
 - plot results to compare
@@ -12,5 +11,3 @@
 ## Random Forests
 # read
 - [n_sample problems](https://www.educative.io/answers/how-to-create-data-for-n-class-problems-using-scikit-learn)
-# understand concepts
-- [roc curve](![img.png](img.png))
